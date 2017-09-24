@@ -1,0 +1,233 @@
+/*body {
+	position: relative;
+} */
+.all {
+	width: 1029px;
+	height: 480px;
+	margin: 0 auto;
+	z-index: -1;
+/*	position: relative;
+	top: 100px;*/
+	/*background-color: red;*/
+}
+.content {
+	width: 343px;
+	height: 480px;
+	margin: 0 auto;
+	background-image: url("img/bg.jpg");
+	z-index: 1;
+
+	/*display: none;*/
+}
+.face {
+	/*display: none;*/
+}
+.play {
+	width: 1029px;
+	height: 423px;
+	/*background-color: green;*/
+	position: relative;
+	left: -343px;
+	display: none;
+}
+.title {
+	width: 236px;
+	height: 77px;
+	/*background-color: red;*/
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	background-image: url("img/head.jpg");
+}
+.title img {
+	position: relative;
+	top: 26%;
+	left: 85%;
+	display: none;
+}
+.start {
+	margin: 0 auto;
+	position: relative;
+	left: 37%;
+	top: 170px;
+}
+.faceBanner {
+	position: relative;
+	top: 310px;
+	z-index: 0;
+}
+.faceBannerTwo {
+	position: relative;
+	top: 289px;
+	left: 343px;
+	z-index: 0;
+}
+.faceBannerThree {
+	position: relative;
+	top: -3.5px;
+	z-index: 0;
+}
+.faceBannerFour {
+	position: relative;
+	top: -24.5px;
+	left: 343px;
+	z-index: 0;
+}
+.bannerSecond {
+	display: none;
+}
+.count {
+	 /*background-color: black;*/
+	 width: 40px;
+	 height: 60px;
+	 position: relative;
+	 left: 500px;
+	 position: absolute;
+	 top: 20px;
+	 z-index: 30;
+}
+.count span {
+	font-size: 40px;
+	color: white;
+}
+.playUpSlide img {
+	/*margin: 0 auto;*/
+	float: left;
+	margin-top: 0;
+}
+.playUpSlideTwo img {
+	/*margin: 0 auto;*/
+	float: left;
+	margin-top: 0;
+}
+.playDownSlide img {
+	/*margin: 0 auto;*/
+	float: left;
+	margin-top: 0;
+}
+.playDownSlideTwo img {
+	/*margin: 0 auto;*/
+	float: left;
+	margin-top: 0;
+}
+.playUpSlide {
+	position: relative;
+	left: 686px;
+	position: absolute;
+	top: 0;
+	/*background-color: red;*/
+	width: 62px;
+	z-index: 1;	
+	overflow: hidden;
+}
+
+.playUpSlideTwo {
+	position: relative;
+	left: 686px;
+	position: absolute;
+	top: 0;
+	width: 62px;
+	overflow: hidden;
+	z-index: 1;
+}
+a {
+	text-decoration: none;
+	color: none;
+}
+.playDownSlide {
+	position: relative;
+	left: 686px;
+	position: absolute;
+	bottom: 0;
+
+	width: 62px;
+	z-index: 1;
+	overflow: hidden;
+}
+.playDownSlideTwo {
+	/*margin-bottom: 37%;*/
+	position: relative;
+	left: 686px;
+	position: absolute;
+	bottom: 0;
+	/*bottom: 37%;*/
+	/*background-color: blue;*/
+	width: 62px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.Fly {
+	position: relative;
+	left: 400px;
+	position: absolute;
+	top: 200px;
+	z-index: 100;
+	/*display: none;*/
+}
+.Fly img {
+	display: none;
+}
+.mes {
+	position: relative;
+	left: 380px;
+	position: absolute;
+	top: 30%;
+	display: none;
+	z-index: 60;
+}
+.ok {
+	position: relative;
+	left: 470px;
+	position: absolute;
+	top: 70%;
+	display: none;
+	z-index: 60;
+}
+.ready {
+	height: 120px;
+	position: relative;
+	left: 0px;
+	top: 160px;
+	z-index: 60;
+	text-align: center;
+	outline: none;
+}
+.readyStart {
+	height: 120px;
+	position: relative;
+	left: 0px;
+	top: 60px;
+	z-index: 60;
+	text-align: center;
+	outline: none;
+}
+.word,.wordStart {
+	/*display: block;*/
+	color: #5CB720;
+	font-size: 40px;
+	font-weight: 800;
+	text-decoration: none;
+	display: none;
+	z-index: 60;
+}
+.markOne {
+	width: 350px;
+	height: 480px;
+	background-color: white;
+	float: left;
+	margin-top: -480px;
+	position: relative;
+	left: -7px;
+	z-index: 100;
+}
+.markTwo {
+	width: 350px;
+	height: 480px;
+	background-color: white;
+	float: right;
+	margin-top: -480px;
+	position: relative;
+	left: 7px;
+	z-index: 100;
+}
